@@ -1,0 +1,12 @@
+p,
+h1{
+    color: red;
+}
+
+.reText{
+    color: red;
+}
+
+h1:nth-child{
+
+}
