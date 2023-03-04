@@ -242,6 +242,31 @@ footer {
 .home-grid{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+}
+.home-title {
+    /* font-size: 25px; */
+    color: #f8cf9f;
+}
+.nmsg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nmsg {
+    background-color: #6f7364;
+    color: #d9c2a3;
+    padding: 25px;
+    grid-column: 2/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    line-height: 1.5em;
+}
+.nmsg h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: var(--heading-font);
 }
 
 @media screen and (max-width: 900px) {
@@ -265,10 +290,7 @@ footer {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
+
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
@@ -284,5 +306,6 @@ footer {
     footer {
         margin-top: 25px;
     }
+    
 }
             
