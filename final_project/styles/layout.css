@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+
+/* body */
+body{
+    background-color: #151616;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'TimesNewRoman', 'Tai Heritage Pro', serif;
+}
+/* Header */
+header{
+    background-color: #151616;
+    margin: -36px -10px 10px -10px;
+    padding: 65px 10px;
+}
+img#logo{
+    width: 100px;
+    float: left;
+    margin-top: -30px; 
+    margin-left: 25px;
+    padding: 0px 0px 10px 10px;
+    transition: transform .6s;
+}
+img#logo:hover{
+    transform: scale(1.1);
+}
+nav{
+    float: right;
+}
+nav a{
+    font-size: 1.15em;
+    text-align: center;
+    color: #03DBE9;
+    text-decoration: none;
+    padding: 15px 22px;
+    transition: .3s ease-out,color .2s ease-out;
+}
+nav a:hover{
+    background-color: #156441;
+    color: white;
+}
+#current-page{
+    border-bottom: 2px solid white;
+}
+
+/* Footer */
+footer{
+    background-color: #151616;
+    margin: 15px -10px -15px -10px;
+    color: white;
+    display: grid;
+    padding: 20px 0px;
+}
+h3.footer{
+    grid-column: 1;
+    margin: 15px 0px 15px auto;
+}
+/* a:nth-of-type(1){
+    grid-column: 6;
+    margin-right: 0;
+}
+a:nth-of-type(2){
+    grid-column: 7;
+    padding-top: 15px;
+} */
+a.site_plan_link{
+    font-size: 1.15em;
+    text-align: center;
+    color: #03DBE9;
+    margin: 15px 0px 15px auto;
+    padding: 5px 11px;
+    transition: .3s ease-out,color .2s ease-out;
+}
+a:hover.site_plan_link{
+    background-color: #156441;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
